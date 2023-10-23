@@ -4,5 +4,54 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+li {
+    list-style: none;
+}
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+nav{
+    display: flex;
+    gap: 10px;
+}
+main{
+    display: flex;
+     
+}
+.background-image {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-image: url('./images/landing.jpg');
+    background-repeat: repeat;
+    background-position: center;
+ 
+  }
+h1{
+    font-size: 300;    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+   
+}
+p{
+    font-size: 150;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+}
